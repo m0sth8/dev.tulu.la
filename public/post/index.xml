@@ -57,7 +57,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/go-lang-plugin-org/go-lang-idea-plugin&#34;&gt;Плагин для IntelijIdea&lt;/a&gt; - по моему мнению, самый удобный инструмент, если вы конечно не адепт других редакторов;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/fatih/vim-go&#34;&gt;Плагин для Vim&lt;/a&gt; - достаточно удобный, многие используют именно его. Если конечно vim вам мил;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/DisposaBoy/GoSublime&#34;&gt;Плагин для Sublime&lt;/a&gt; - заброшен, но пользоваться можно. Я не советую.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/DisposaBoy/GoSublime&#34;&gt;Плагин для Sublime&lt;/a&gt; - заброшен, но пользоваться можно. Я не советую;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joefitzgerald/go-plus&#34;&gt;Плагин для Atom&lt;/a&gt; - для тех кто понимает, зачем это нужно.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
