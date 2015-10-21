@@ -2,7 +2,7 @@ baseUrl = "http://dev.tulu.la/"
 languageCode = "ru-RU"
 title = "Блог о разработке на Go"
 theme = "tulula"
-paginate = 5
+paginate = 10
 disqusShortname = "dev.tulu.la"
 copyright = "All rights reserved - 2015"
 

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Блог о разработке на Go</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Блог о разработке на Go</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <managingEditor>m0sth8@gmail.com (M0sTH8)</managingEditor>
+    <webMaster>m0sth8@gmail.com (M0sTH8)</webMaster>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sat, 17 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Участие в подкасте devzen.ru</title>
+      <link>http://localhost:1313/post/devzen/</link>
+      <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
+      <author>m0sth8@gmail.com (M0sTH8)</author>
+      <guid>http://localhost:1313/post/devzen/</guid>
+      <description>&lt;p&gt;Я очень люблю подкаст devzen.ru, постоянно слушаю его во время пробежек. Сам подкаст, это что-то вроде технических выпусков radio-t, но все ведущие готовятся и говорят интересные вещи. Поэтому я напросился к ребятам на один из выпусков.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Вот шоунотсы с выпуска:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Темы выпуска: рассказ гостя про свою жизнь, как родился, вырос, как дошел до такой жизни, про работу в Яндексе в команде кокаина, как они протащили Go в Яндекс, про работу над своим стартапом в Южной Америке в Чили, про конференцию BlackHat 2015 и свой проект по безопасности, что сейчас происходит в Dropbox; как Света съездила на конференции по BigData и ScalaUA, вакансии по Erlang, а также ответы на вопросы слушателей.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;К сожалению, мне не удалось рассказать всё что я хотел. Где-то я упустил мысль, где-то проскочил. Хотелось добавить много технических деталей, описать различные системы, но времени уже не хватало. В любом случае, получилось очень здорово =) надеюсь вам понравится.&lt;/p&gt;
+
+&lt;p&gt;Возможно, когда у меня будет уже больше знаний о Dropbox, я напрошусь ещё раз и расскажу уже конкретно про различные системы и опыт работы с ними.&lt;/p&gt;
+
+&lt;p&gt;Сам эпизод вы можете послушать у ребят на &lt;a href=&#34;http://devzen.ru/episode-0063/&#34;&gt;сайте&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Всякие права</title>
+      <link>http://localhost:1313/license/</link>
+      <pubDate>Sat, 25 Jul 2015 10:41:46 -0400</pubDate>
+      <author>m0sth8@gmail.com (M0sTH8)</author>
+      <guid>http://localhost:1313/license/</guid>
+      <description>&lt;p&gt;Вы можете перепечатывать статьи с указанием авторства и ссылки на оригинал. Если вы сомневаетесь в чём-то, то пишите мне на электронный адрес: m0sth8@gmail.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Обо мне</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 25 Jul 2015 10:41:46 -0400</pubDate>
+      <author>m0sth8@gmail.com (M0sTH8)</author>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Привет. Меня зовут Слава. В данный момент я проживаю в городе Дублин, прекрасной страны Ирландия.
+Я проработал более двух лет в Яндексе, где мы делали различные сервисы на платформе Cocaine. Мы первыми в компании начали использовать Go и публично говорить об этом =).
+Сейчас я работаю в компании Dropbox.&lt;/p&gt;
+
+&lt;p&gt;Я выступал на некоторых мероприятиях от Яндекса, рассказывая про Go. Часть из докладов можно найти на сайте &lt;a href=&#34;https://events.yandex.ru/lib/people/618007/&#34;&gt;событий Яндекса&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Так же я один из ведущих первого российского &lt;a href=&#34;http://golangshow.com&#34;&gt;подкаста о Go&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Если вы хотите связаться со мной, вы можете написать мне на электронный адрес: m0sth8@gmail.com.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

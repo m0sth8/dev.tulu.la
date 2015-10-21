@@ -4,7 +4,7 @@ build:
 	hugo
 
 watch:
-	hugo server --buildDrafts --watch
+	hugo server --buildDrafts --watch -d ./public2
 
 init:
 	brew update
