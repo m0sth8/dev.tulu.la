@@ -21,25 +21,43 @@
       <description>&lt;p&gt;&lt;strong&gt;Прежде всего, нужно ознакомиться с основами, в этом помогут следующие ресурсы:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tour.golang.org/welcome/1&#34;&gt;Тур с заданиями по Go&lt;/a&gt; - это должен пройти каждый;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://golang.org/doc/code.html&#34;&gt;Как писать код&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tour.golang.org/welcome/1&#34;&gt;Тур с заданиями по Go&lt;/a&gt; - это должен пройти каждый; (EN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang.org/doc/code.html&#34;&gt;Как писать код&lt;/a&gt;; (EN)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://golang.org/doc/effective_go.html&#34;&gt;Как писать эффективный код&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://golang.org/doc/faq&#34;&gt;FAQ&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://golang.org/ref/spec&#34;&gt;99% ответов о языке есть в спецификации&lt;/a&gt; - если вам не ясно как работает тот или иной элемент языка, то все ответы здесь;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Примеры того, как можно решать те или иные задачи&lt;/a&gt; - можно полистать и иметь ввиду.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang.org/doc/faq&#34;&gt;FAQ&lt;/a&gt;; (EN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang.org/ref/spec&#34;&gt;99% ответов о языке есть в спецификации&lt;/a&gt; - если вам не ясно как работает тот или иной элемент языка, то все ответы здесь; (EN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Примеры того, как можно решать те или иные задачи&lt;/a&gt; - можно полистать и иметь ввиду. (EN)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Скринкасты&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLBOo6DBmP5V9CAXxxl6EZxZpMmT_4ZOca&#34;&gt;Погружение в google Go&lt;/a&gt; - азы;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC2ZML5bXoJrvAlhsqMVUvXg/videos&#34;&gt;Пишем веб приложение на Go&lt;/a&gt; - более продвинутое.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLBOo6DBmP5V9CAXxxl6EZxZpMmT_4ZOca&#34;&gt;Погружение в google Go&lt;/a&gt; - азы; (RU)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC2ZML5bXoJrvAlhsqMVUvXg/videos&#34;&gt;Пишем веб приложение на Go&lt;/a&gt; - более продвинутое. (RU)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Видео&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cN_DpYBzKso&#34;&gt;Rob Pike - &amp;lsquo;Concurrency Is Not Parallelism&amp;rsquo;&lt;/a&gt; - нужно смотреть всем кто хочет работать с Go (EN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://4gophers.ru/video&#34;&gt;Набор русскоязычных и англоязычных видео&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Статьи на русском&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Про go написано достаточно много статей, ко многим есть переводы на русский&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/219459/&#34;&gt;Язык Go для начинающих&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/hub/go/&#34;&gt;Хаб Go на Хабре&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://4gophers.ru/articles&#34;&gt;Переводы статей на 4gophers&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Книжки:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440&#34;&gt;The Go Programming Language&lt;/a&gt; - книжка от Кернигана, очень качественная и приятная. Вот &lt;a href=&#34;http://www.gopl.io/ch1.pdf&#34;&gt;первая глава&lt;/a&gt; для ознакомления;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/dp/0321774639/?tag=stackoverfl08-20&#34;&gt;Programming in Go Summerfield&lt;/a&gt; - есть русский &lt;a href=&#34;http://www.ozon.ru/context/detail/id/19954705/&#34;&gt;перевод&lt;/a&gt;, но качество так себе.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Ресурсы:&lt;/strong&gt;&lt;/p&gt;
@@ -50,6 +68,8 @@
 &lt;li&gt;&lt;a href=&#34;http://bit.ly/go-slack-signup&#34;&gt;Международный Slack чат&lt;/a&gt; - много людей =) общайтесь, если много свободного времени;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/golang-nuts&#34;&gt;Англоязычная google группа&lt;/a&gt; - огромное количество вопросов на английском;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://golangshow.com&#34;&gt;Русскоязычный подкаст о Go&lt;/a&gt; - в подкасте часто бывают гости из таких компаний, как docker, dropbox, cloudflare, coreos, google. Так же &lt;a href=&#34;http://golangshow.com/episode/2015/09-03-016/&#34;&gt;был&lt;/a&gt; знаменитый Дмитрий Вьюков и рассказывал все секреты про рантайм Go.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gocode.io/&#34;&gt;Игра, где надо писать на go и проходить миссии&lt;/a&gt; - &lt;a href=&#34;http://habrahabr.ru/post/250281/&#34;&gt;Описание на русском&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/avelino/awesome-go&#34;&gt;Библиотеки на go на любой вкус&lt;/a&gt; - В любом другом случае - ищем на гитхабе. Почти всё что надо уже написано.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Редакторы&lt;/strong&gt;&lt;/p&gt;
@@ -60,6 +80,8 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/DisposaBoy/GoSublime&#34;&gt;Плагин для Sublime&lt;/a&gt; - заброшен, но пользоваться можно. Я не советую;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/joefitzgerald/go-plus&#34;&gt;Плагин для Atom&lt;/a&gt; - для тех кто понимает, зачем это нужно.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Пишите в комментариях, что ещё может быть полезно для новичков.&lt;/p&gt;
 </description>
     </item>
     
