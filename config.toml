@@ -1,0 +1,21 @@
+baseUrl = "http://dev.tulu.la/"
+languageCode = "ru-RU"
+title = "Блог о разработке на Go"
+theme = "tulula"
+paginate = 5
+disqusShortname = "dev.tulu.la"
+copyright = "All rights reserved - 2015"
+
+[author]
+  name = "M0sTH8"
+  email = "m0sth8@gmail.com"
+
+[params]
+  description = "Блог о разработке на Go"
+  truncate = true
+  theme = "theme-base-01 layout-reverse"
+  tagline = "пишу про Go и веб-разработку"
+  highlight = "solarized_light"
+  gravatarHash = "11cc1a57930567c7b33721fb3086539e"
+
+  twitter = "https://twitter.com/m0sth8"
