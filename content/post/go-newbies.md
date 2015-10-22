@@ -23,6 +23,10 @@ draft = false
  - [Погружение в google Go](https://www.youtube.com/playlist?list=PLBOo6DBmP5V9CAXxxl6EZxZpMmT_4ZOca) - азы; (RU)
  - [Пишем веб приложение на Go](https://www.youtube.com/channel/UC2ZML5bXoJrvAlhsqMVUvXg/videos) - более продвинутое. (RU)
 
+**Хакатоны и челенджи**
+
+ - [Go Challenge. Learn Go by solving problems and getting feedback from Go experts!](http://golang-challenge.com/) - **Обязательно** поучаствуйте в одном из челенджев, даже если вы уже и не новичок. Это позволит вам познакомиться с чем-то новым и получить отзывы от профессионалов. Например в последнем из челенджев, нужно было написать мобильное приложение для андроида. (EN)
+
 **Видео**
 
  - [Rob Pike - 'Concurrency Is Not Parallelism'](https://www.youtube.com/watch?v=cN_DpYBzKso) - нужно смотреть всем кто хочет работать с Go (EN)
