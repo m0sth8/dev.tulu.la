@@ -16,6 +16,8 @@ draft = false
  - [99% ответов о языке есть в спецификации](http://golang.org/ref/spec) - если вам не ясно как работает тот или иной элемент языка, то все ответы здесь; (EN)
  - [Примеры того, как можно решать те или иные задачи](https://gobyexample.com/) - можно полистать и иметь ввиду. (EN)
 
+Дальше можно уже выбирать из списка ниже и смотреть/читать в процессе.
+
 **Скринкасты**
 
  - [Погружение в google Go](https://www.youtube.com/playlist?list=PLBOo6DBmP5V9CAXxxl6EZxZpMmT_4ZOca) - азы; (RU)
@@ -35,7 +37,6 @@ draft = false
 - [Переводы статей на 4gophers](http://4gophers.ru/articles)
 
 
-
 **Книжки:** 
 
  - [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440) - книжка от Кернигана, очень качественная и приятная. Вот [первая глава](http://www.gopl.io/ch1.pdf) для ознакомления; 
@@ -43,7 +44,7 @@ draft = false
 
 **Ресурсы:**
 
- - [Slack чат русскоязычного gopher сообщества](4gophers.com/slack) - в чате сидит уже больше 500 человек, часто обсуждаются интересные темы. В канале #school можно задавать абсолютно любые вопросы. В канале #job куча вакансий; 
+ - [Slack чат русскоязычного gopher сообщества](http://4gophers.com/slack) - в чате сидит уже больше 500 человек, часто обсуждаются интересные темы. В канале #school можно задавать абсолютно любые вопросы. В канале #job куча вакансий; 
  - [Русскоязычная google группа](https://groups.google.com/forum/#!forum/golang-ru) - можно задать любой вопрос и получить ответ;
  - [Международный Slack чат](http://bit.ly/go-slack-signup) - много людей =) общайтесь, если много свободного времени;
  - [Англоязычная google группа](https://groups.google.com/forum/#!forum/golang-nuts) - огромное количество вопросов на английском;
