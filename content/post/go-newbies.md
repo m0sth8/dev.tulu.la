@@ -56,6 +56,7 @@ draft = false
 
  - [Плагин для IntelijIdea](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) - по моему мнению, самый удобный инструмент, если вы конечно не адепт других редакторов;
  - [Плагин для Vim](https://github.com/fatih/vim-go) - достаточно удобный, многие используют именно его. Если конечно vim вам мил;
+ - [Плагин для Emacs](https://github.com/dominikh/go-mode.el) - для тех у кого пальцы гнутся;
  - [Плагин для Sublime](https://github.com/DisposaBoy/GoSublime) - заброшен, но пользоваться можно. Я не советую;
  - [Плагин для Atom](https://github.com/joefitzgerald/go-plus) - для тех кто понимает, зачем это нужно.
 
