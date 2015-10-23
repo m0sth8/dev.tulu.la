@@ -75,6 +75,7 @@ draft = false
  - [Минский](http://gophers.by/).
 
 Так же проводились встречи и в других городах. Например в
+
  - [Новосибирске](https://golang-party.timepad.ru/event/240938/).
 
 
