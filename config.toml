@@ -7,7 +7,7 @@ disqusShortname = "dev-tulula"
 copyright = "All rights reserved - 2015"
 
 [author]
-  name = "M0sTH8"
+  name = "Слава Бахмутов M0sTH8"
   email = "m0sth8@gmail.com"
 
 [params]
@@ -19,4 +19,5 @@ copyright = "All rights reserved - 2015"
   gravatarHash = "11cc1a57930567c7b33721fb3086539e"
 
   twitter = "https://twitter.com/m0sth8"
+  github = "https://github.com/m0sth8/dev.tulu.la"
   googleAnalytics = "UA-69136356-1"

@@ -6,8 +6,8 @@
     <description>Recent content in Posts on Блог о разработке на Go</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <managingEditor>m0sth8@gmail.com (M0sTH8)</managingEditor>
-    <webMaster>m0sth8@gmail.com (M0sTH8)</webMaster>
+    <managingEditor>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</managingEditor>
+    <webMaster>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</webMaster>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Wed, 21 Oct 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dev.tulu.la/post/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>С чего начать новичку в Go</title>
       <link>http://dev.tulu.la/post/go-newbies/</link>
       <pubDate>Wed, 21 Oct 2015 00:00:00 +0000</pubDate>
-      <author>m0sth8@gmail.com (M0sTH8)</author>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
       <guid>http://dev.tulu.la/post/go-newbies/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Прежде всего, нужно ознакомиться с основами, в этом помогут следующие ресурсы:&lt;/strong&gt;&lt;/p&gt;
 
@@ -113,7 +113,7 @@
       <title>Участие в подкасте devzen.ru</title>
       <link>http://dev.tulu.la/post/devzen/</link>
       <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
-      <author>m0sth8@gmail.com (M0sTH8)</author>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
       <guid>http://dev.tulu.la/post/devzen/</guid>
       <description>&lt;p&gt;Я очень люблю подкаст devzen.ru, постоянно слушаю его во время пробежек. Сам подкаст, это что-то вроде технических выпусков radio-t, но все ведущие готовятся и говорят интересные вещи. Поэтому я напросился к ребятам на один из выпусков.&lt;/p&gt;
 
