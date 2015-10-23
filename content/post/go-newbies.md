@@ -65,5 +65,17 @@ draft = false
  - [Плагин для Sublime](https://github.com/DisposaBoy/GoSublime) - заброшен, но пользоваться можно. Я не советую;
  - [Плагин для Atom](https://github.com/joefitzgerald/go-plus) - для тех кто понимает, зачем это нужно.
 
+**Митапы**
+
+Без живого общения никак. Встречи проводятся несколько раз в год.
+
+ - [Московский митап](http://www.meetup.com/Golang-Moscow/);
+ - [Киевский митап](http://www.meetup.com/uagolang/);
+ - [Санкт-Петербуржский](http://www.meetup.com/Golang-Peter/);
+ - [Минский](http://gophers.by/).
+
+Так же проводились встречи и в других городах. Например в
+ - [Новосибирске](https://golang-party.timepad.ru/event/240938/).
+
 
 Пишите в комментариях, что ещё может быть полезно для новичков.
