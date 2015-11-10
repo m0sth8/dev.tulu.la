@@ -21,3 +21,8 @@ copyright = "All rights reserved - 2015"
   twitter = "https://twitter.com/m0sth8"
   github = "https://github.com/m0sth8/dev.tulu.la"
   googleAnalytics = "UA-69136356-1"
+
+[[menu.main]]
+  name = "Подкаст golangshow"
+  weight = 10
+  url = "https://golangshow.com/"
