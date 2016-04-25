@@ -21,6 +21,6 @@ draft = false
  - [Комбинаторика для самых маленьких](https://www.coursera.org/learn/kombinatorika-dlya-nachinayushchikh/).
  - [Теория случайных графов](https://www.coursera.org/learn/sluchajnye-graphy/) - На стыке тервера и графов.
 
-Это всё для затравки. Так же меня порадовало, что наконец-то доделали приложения для iphone/android. IPad с собой таскать было не особо удобно.
+Это всё для затравки. Так же меня порадовало, что наконец-то доделали приложения для [iphone](https://itunes.apple.com/app/apple-store/id736535961)/[android](http://play.google.com/store/apps/details?id=org.coursera.android). IPad с собой таскать было не особо удобно.
 
 
