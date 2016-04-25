@@ -9,8 +9,38 @@
     <managingEditor>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</managingEditor>
     <webMaster>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</webMaster>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Tue, 10 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dev.tulu.la/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Новые курсы на Coursera</title>
+      <link>http://dev.tulu.la/post/coursera1/</link>
+      <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
+      <guid>http://dev.tulu.la/post/coursera1/</guid>
+      <description>
+
+&lt;p&gt;Из тех курсов, которые я отобрал для себя для ознакомления:&lt;/p&gt;
+
+&lt;h3 id=&#34;машинное-обучение:ff7017786ebcadfe2eae591a356a87bf&#34;&gt;Машинное обучение:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/&#34;&gt;Введение в машинное обучение&lt;/a&gt; - совместный курс Яндекса и НИУ ВШЭ&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/machine-learning-data-analysis&#34;&gt;Набор курсов по машинному обучению и анализу данных&lt;/a&gt; - опять же в партнёрстве с Яндекс Дата Фабрикой.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Математика:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/teoriya-grafov/&#34;&gt;Теория графов&lt;/a&gt; - Для тех кто забыл и хочет обновить знания по графам.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/probability-theory-basics/&#34;&gt;Теория вероятностей для начинающих&lt;/a&gt; - Тоже курс для начинающих по терверу. Кто его проспал в универе - вам сюда.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/kombinatorika-dlya-nachinayushchikh/&#34;&gt;Комбинаторика для самых маленьких&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/sluchajnye-graphy/&#34;&gt;Теория случайных графов&lt;/a&gt; - На стыке тервера и графов.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Это всё для затравки. Так же меня порадовало, что наконец-то доделали приложения для iphone/android. IPad с собой таскать было не особо удобно.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Дмитрий Вьюков. Интервью - часть первая</title>
