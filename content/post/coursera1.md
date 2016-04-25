@@ -14,7 +14,7 @@ draft = false
  - [Введение в машинное обучение](https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/) - совместный курс Яндекса и НИУ ВШЭ
  - [Набор курсов по машинному обучению и анализу данных](https://www.coursera.org/specializations/machine-learning-data-analysis) - опять же в партнёрстве с Яндекс Дата Фабрикой.
 
-Математика:
+### Математика:
 
  - [Теория графов](https://www.coursera.org/learn/teoriya-grafov/) - Для тех кто забыл и хочет обновить знания по графам.
  - [Теория вероятностей для начинающих](https://www.coursera.org/learn/probability-theory-basics/) - Тоже курс для начинающих по терверу. Кто его проспал в универе - вам сюда.
