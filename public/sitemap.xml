@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://dev.tulu.la/</loc>
-    <lastmod>2016-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2016-06-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev.tulu.la/post/sre-codefest/</loc>
+    <lastmod>2016-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>

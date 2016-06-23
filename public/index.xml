@@ -9,8 +9,34 @@
     <managingEditor>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</managingEditor>
     <webMaster>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</webMaster>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Mon, 25 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jun 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dev.tulu.la/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Рассказ об SRE и Go на конференции codefest.ru</title>
+      <link>http://dev.tulu.la/post/sre-codefest/</link>
+      <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
+      <guid>http://dev.tulu.la/post/sre-codefest/</guid>
+      <description>&lt;p&gt;Подавался на конференцию я со следующими тезисами&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Исторические причины, почему начали смотреть на Go.&lt;/li&gt;
+&lt;li&gt;Особенности задач в Dropbox.&lt;/li&gt;
+&lt;li&gt;Почему Python не подошёл для новых задач.&lt;/li&gt;
+&lt;li&gt;Для каких задач сейчас используется Go в Dropbox.&lt;/li&gt;
+&lt;li&gt;Краткий обзор экосистемы Go.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;На самом деле, в докладе большая часть была про SRE. Про Go уже только ленивый не говорил, а про SRE в России знает не так много людей.&lt;/p&gt;
+
+&lt;p&gt;По ссылкам можно посмотреть &lt;a href=&#34;http://www.slideshare.net/codefest/ss-60115203&#34;&gt;презентацию&lt;/a&gt; и &lt;a href=&#34;https://www.youtube.com/watch?v=EWsXbsUBm-M&#34;&gt;запись доклада&lt;/a&gt;. Так же есть &lt;a href=&#34;http://dev.tulu.la/uploads/GoCodefestNsk_with_notes.pdf&#34;&gt;презентация&lt;/a&gt; с моими комментариями к слайдам.&lt;/p&gt;
+
+&lt;p&gt;Так же у нас был замечательный &lt;a href=&#34;https://www.youtube.com/watch?v=hy3JwgOvpII&#34;&gt;квартирник про Go&lt;/a&gt;. Начало было не такое интересно, но зато потом была куча познавательных вопросов и ответов.&lt;/p&gt;
+
+&lt;p&gt;Про остальные доклады на конференции я, к сожалению, ничего сказать не могу, так как все их проспал из-за джетлага. Но все видео доступны и вы можете их &lt;a href=&#34;http://2016.codefest.ru/&#34;&gt;посмотреть&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Новые курсы на Coursera</title>
