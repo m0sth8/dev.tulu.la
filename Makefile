@@ -1,7 +1,7 @@
 .PHONY:m build watch init
 
 build:
-	hugo
+	hugo -d ./docs
 
 watch:
 	hugo server --buildDrafts --watch -d ./public2

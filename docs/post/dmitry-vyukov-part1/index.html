@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Дмитрий Вьюков. Интервью - часть первая &middot; Слава Бахмутов M0sTH8</title>
+
+  
+  <link rel="stylesheet" href="http://dev.tulu.la/css/poole.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/hyde.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/hyde-x.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/highlight/solarized_light.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://dev.tulu.la/apple-touch-icon-144-precomposed.png">
+  <link href="http://dev.tulu.la/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="В одном из выпусков нашего подкаста про Go был замечательный гость, Дмитрий Вьюков, один из разработчиков языка Go. Вообще выпуск получился очень интересным, и я советую его послушать. Сейчас же я кратко расскажу про самые интересные моменты о внутренностях Go">
+  <meta name="keywords" content="golangshow,подкаст,go">
+  
+</head>
+<body class="theme-base-01 layout-reverse">
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <img src="https://www.gravatar.com/avatar/11cc1a57930567c7b33721fb3086539e?s=200" alt="gravatar">
+      <h1>Слава Бахмутов M0sTH8</h1>
+      <p >пишу про Go и веб-разработку</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://dev.tulu.la/">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="http://dev.tulu.la/about/">Обо мне</a></li>
+      
+      <li class="sidebar-nav-item"><a href="https://golangshow.com/">Подкаст golangshow</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/m0sth8/dev.tulu.la"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      
+      <a href="https://twitter.com/m0sth8"><i class="fa fa-twitter-square fa-3x"></i></a>
+      </li>
+    </ul>
+
+    <p>Copyright &copy; 2016 <a href="http://dev.tulu.la/license/">License</a><br/>
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1>Дмитрий Вьюков. Интервью - часть первая</h1>
+    <span class="post-date">Nov 10, 2015 &middot; 3 minute read &middot; <a href="http://dev.tulu.la/post/dmitry-vyukov-part1/#disqus_thread">Comments</a>
+    
+    <br/>
+    <a class="label" href="http://dev.tulu.la/categories/go">go</a>
+    </span>
+    <p>Собственно, сам выпуск вы можете послушать на <a href="https://golangshow.com/">сайте</a> или в <a href="https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?l=en&amp;mt=2">itunes</a></p>
+
+<p>В слак чате Дима так же ответил на некоторые вопросы, интересующие сообщество (орфография и стили вопросов сохранены).</p>
+
+<p><strong>Сейчас в связи появлением в atomic SetValue началась мода на атомарность. Когда в Го это действительно оправдано? Просто это регулярная тема для споров, в том числе и тут т.к. изначально язык предлагает каналы и мьютексы для синхронизации. Но Го атомик достаточно высокоуровневый и с ходу сложно об него порезаться. Или таки просто?</strong></p>
+
+<p>Каналы скорее всего станут несколько быстрее в будущем, но все равно далеки от атомарного инкременты счетчика. Не стоит надеяться, что канал+отдельная горутина будет так же быстро, как и счетчик. Когда использовать атомарные типы - сложный вопрос. Ну во-первых, прежде чем применять какие-либо деструктивные оптимизации надо получить проблему производительности. Если проблемы производительности в данном месте нет, то очевидно атомики применять не надо. Дальше вопрос - насколько существующие оптимизированные примитивы синхронизации делают то, что вам нужно. Например, если вы можете просто заменить мьютекс или канал+горутина на sync.Once или atomic.Value, то это делает выбор проще, чем если вам нужно писать с нуля сложный lock-free алгоритм на атомиках. Дальше вопрос - сколько вы и ваша команда готовы вынести дополнительной сложности в проекте. Дальше - насколько атомики получаются быстрее. Дальше все это взвесить и решить - стоит оно того или нет.</p>
+
+<p><strong>Будет ли максимальный stop the world для GC в будущем снижаться ниже 10 ms?</strong></p>
+
+<p>По поводу сборщика мусора - я последнее время отошел от дел, сейчас другие люди его делают и не знаю, что именно они собираются делать.  За них отвечать я не могу. Но вообще можно сделать сборщик вообще без пауз, и вроде все соглашались, что это хорошая идея. Стоит заметить, что 10 ms - цифра достаточно с потолка, и никто в данный момент не пытается придерживаться этой границы. Сборщик просто тормозит программу на некоторое время. Обычно так получается, что это время маленькое и меньше 10 мс. Так же стоит заметить, что если программа аллоцирует память как угарелая, то у сборщика не будет выбора как остановить её. Даже если он полностью конкаррент.</p>
+
+<p><strong>Дим, в этом свете тогда вопрос, есть ли возможность жёстко задавать размер хипа, чтобы влезать в мобильные приложения и в ограничения на контейнеры. Так как GOGC выглядит совсем soft. Планируется ли?</strong></p>
+
+<p>Нету. Пока ты не зафайлишь баг с описание того, как сильно это мешает тебе разрабатывать реальные мобильные приложения, - нет.</p>
+
+<p><strong>Ещё у меня такой вопрос. Я видел обсуждения про асинхронную работу с файловой системой на разных ОС. Вообще ведутся какие-то работы в этом направлении?</strong></p>
+
+<p>Насколько я знаю, никакие работы не ведутся. Есть открытый баг на эту тему.</p>
+
+<p><strong>Я понимаю что каналы никогда не будут близки к атомикам т. к. концептуально разное. Но вопрос - насколько ещё можно ускорить каналы и самое главное насколько разработчики компилятора Го в этом заинтересованы интересен. До 1.5 был основная мысль &ldquo;все оптимизации после переноса на Го&rdquo;. Перенесли - как теперь вектор развития утверждается? (прим. имеется ввиду переписывание рантайма c C на Go)</strong></p>
+
+<p>Насколько я понимаю, команда Го не сильно заинтересованы в каналах, по-крайней мере они сами вроде ничего не делают. Мало реальных приложений, где много времени тратиться в каналах. На гугловых кластерах первая функция связанная с каналами - chansend занимает 0.03%</p>
+
+<p><strong>Дмитрий, у нас есть слухи про то, что Intel делает дебагер на базе gdb, ты не в курсе?</strong></p>
+
+<p>Про Intel я не могу распространяться. поживем-увидим =)</p>
+
+<p><strong>В каких оптимизациях заинтересована команда? Что бы примерно знать вектор развития.</strong></p>
+
+<p>В целом в каждый момент времени они занимаются тем, что больше всего замедляет реальные Го программы. Сейчас там есть несколько людей, которые занимаются сборщиком мусора, есть человек, который занимается эскейп анализом, есть несколько людей, которые занимаются генерацией кода.</p>
+
+  </div>
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "dev-tulula";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "dev-tulula";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script src="http://dev.tulu.la/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+  var _gaq=[['_setAccount','UA-69136356-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>
+

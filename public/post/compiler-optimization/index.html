@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Оптимизации компилятора &middot; Слава Бахмутов M0sTH8</title>
+
+  
+  <link rel="stylesheet" href="http://dev.tulu.la/css/poole.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/hyde.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/hyde-x.css">
+  <link rel="stylesheet" href="http://dev.tulu.la/css/highlight/solarized_light.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://dev.tulu.la/apple-touch-icon-144-precomposed.png">
+  <link href="http://dev.tulu.la/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="Пока летел в самолёте досмотрел замечательное выступление Understanding Compiler Optimization by Chandler Carruth из Гугла. В своём докладе он рассказывает,  ">
+  <meta name="keywords" content="ml,coursera">
+  
+</head>
+<body class="theme-base-01 layout-reverse">
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <img src="https://www.gravatar.com/avatar/11cc1a57930567c7b33721fb3086539e?s=200" alt="gravatar">
+      <h1>Слава Бахмутов M0sTH8</h1>
+      <p >пишу про Go и веб-разработку</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://dev.tulu.la/">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="http://dev.tulu.la/about/">Обо мне</a></li>
+      
+      <li class="sidebar-nav-item"><a href="https://golangshow.com/">Подкаст golangshow</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/m0sth8/dev.tulu.la"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      
+      <a href="https://twitter.com/m0sth8"><i class="fa fa-twitter-square fa-3x"></i></a>
+      </li>
+    </ul>
+
+    <p>Copyright &copy; 2016 <a href="http://dev.tulu.la/license/">License</a><br/>
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1>Оптимизации компилятора</h1>
+    <span class="post-date">Apr 29, 2016 &middot; 2 minute read &middot; <a href="http://dev.tulu.la/post/compiler-optimization/#disqus_thread">Comments</a>
+    
+    <br/>
+    
+    </span>
+    <p><a href="https://www.youtube.com/watch?v=FnGCDLhaxKU">Само видео</a></p>
+
+<p><a href="/uploads/meetingcxx_2015-understanding_compiler_optimization_themed_copy.pdf">Слайды к нему</a></p>
+
+<p>SSA <a href="https://ru.wikipedia.org/wiki/SSA">https://ru.wikipedia.org/wiki/SSA</a></p>
+
+<p>Кто такой Chandler Carruth</p>
+
+<p>Chandler Carruth leads the C++ platform team and LLVM team at Google. He is also an active contributor to the LLVM and Clang open source projects, and speaks at various C++ events where he tries to help spread knowledge about C++, compilers, tools, and optimization. Previously, he worked on several components of Googles distributed build system. He received his M.S. and B.S. in Computer Science from Wake Forest University, but disavows all knowledge of the contents of his Masters thesis. He can usually found coding with the aid of Cherry Coke Zero in the daytime and pontificating over a single malt scotch in the evening.</p>
+
+<p>Keynote: Understanding Compiler Optimization</p>
+
+<p>C++ is used in applications where resources are constrained and performance is critical. However, its power in this domain comes from the ability to build large, complex systems in C++. These systems leverage numerous C++ features in order to build and utilize abstractions that make reasoning about these complex systems possible. Abstractions are the very essence of how we scale software to solve ever larger and more complex problems.</p>
+
+<p>But the common C++ idea of &ldquo;zero cost&rdquo; abstractions is, in some senses, a myth. The real achievement of C++ is allowing you, the programmer, to control where and how the cost of your abstractions will be paid. It does this by leveraging remarkably advanced optimizing compilers and carefully written libraries and techniques, all working together to control the cost. In order to be effective writing software that leverages this control, it is essential that the programmer understand the core fundamentals of how the compiler optimizations will behave. Without this, it is too easy to unknowingly limit it or create challenges that it cannot overcome.</p>
+
+  </div>
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "dev-tulula";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "dev-tulula";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script src="http://dev.tulu.la/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+  var _gaq=[['_setAccount','UA-69136356-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>
+

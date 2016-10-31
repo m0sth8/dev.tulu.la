@@ -1,0 +1,65 @@
+/*
+ * Tweaks and overrides to hyde.css
+ */
+
+.sidebar {
+	color: #000;
+	font-size: 0.8rem;
+	padding: 0.8rem 0.8rem;	
+}
+
+.sidebar a {
+	color: #b58900;	
+}
+
+.sidebar-about h1 {
+  color: #000;
+  margin-top: 0;
+  font-family: "Verdana", serif;
+  font-size: 1.0rem;
+}
+
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 12rem;
+    text-align: left;
+  }
+}
+
+@media (min-width: 48em) {
+  .layout-reverse .sidebar {
+    left: auto;
+    right: 0;
+  }
+  .layout-reverse .content {
+    margin-left: 2rem;
+    margin-right: 12rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .layout-reverse .content {
+    margin-left: 4rem;
+    margin-right: 12rem;
+  }
+}
+
+
+/* Orange */
+.theme-base-01 .sidebar {
+  background-color: #fdf6e3;
+}
+.theme-base-01 .content a,
+.theme-base-01 .related-posts li a:hover {
+  color: #b58900;
+}

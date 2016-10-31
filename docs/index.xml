@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Блог о разработке на Go</title>
+    <link>http://dev.tulu.la/</link>
+    <description>Recent content on Блог о разработке на Go</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <managingEditor>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</managingEditor>
+    <webMaster>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</webMaster>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Thu, 23 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dev.tulu.la/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Рассказ об SRE и Go на конференции codefest.ru</title>
+      <link>http://dev.tulu.la/post/sre-codefest/</link>
+      <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
+      <guid>http://dev.tulu.la/post/sre-codefest/</guid>
+      <description>&lt;p&gt;Подавался на конференцию я со следующими тезисами&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Исторические причины, почему начали смотреть на Go.&lt;/li&gt;
+&lt;li&gt;Особенности задач в Dropbox.&lt;/li&gt;
+&lt;li&gt;Почему Python не подошёл для новых задач.&lt;/li&gt;
+&lt;li&gt;Для каких задач сейчас используется Go в Dropbox.&lt;/li&gt;
+&lt;li&gt;Краткий обзор экосистемы Go.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;На самом деле, в докладе большая часть была про SRE. Про Go уже только ленивый не говорил, а про SRE в России знает не так много людей.&lt;/p&gt;
+
+&lt;p&gt;По ссылкам можно посмотреть &lt;a href=&#34;http://www.slideshare.net/codefest/ss-60115203&#34;&gt;презентацию&lt;/a&gt; и &lt;a href=&#34;https://www.youtube.com/watch?v=EWsXbsUBm-M&#34;&gt;запись доклада&lt;/a&gt;. Так же есть &lt;a href=&#34;http://dev.tulu.la/uploads/GoCodefestNsk_with_notes.pdf&#34;&gt;презентация&lt;/a&gt; с моими комментариями к слайдам.&lt;/p&gt;
+
+&lt;p&gt;Так же у нас был замечательный &lt;a href=&#34;https://www.youtube.com/watch?v=hy3JwgOvpII&#34;&gt;квартирник про Go&lt;/a&gt;. Начало было не такое интересно, но зато потом была куча познавательных вопросов и ответов.&lt;/p&gt;
+
+&lt;p&gt;Про остальные доклады на конференции я, к сожалению, ничего сказать не могу, так как все их проспал из-за джетлага. Но все видео доступны и вы можете их &lt;a href=&#34;http://2016.codefest.ru/&#34;&gt;посмотреть&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Новые курсы на Coursera</title>
+      <link>http://dev.tulu.la/post/coursera1/</link>
+      <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
+      <guid>http://dev.tulu.la/post/coursera1/</guid>
+      <description>
+
+&lt;p&gt;Из тех курсов, которые я отобрал для себя для ознакомления:&lt;/p&gt;
+
+&lt;h3 id=&#34;машинное-обучение:ff7017786ebcadfe2eae591a356a87bf&#34;&gt;Машинное обучение:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/&#34;&gt;Введение в машинное обучение&lt;/a&gt; - совместный курс Яндекса и НИУ ВШЭ&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/machine-learning-data-analysis&#34;&gt;Набор курсов по машинному обучению и анализу данных&lt;/a&gt; - опять же в партнёрстве с Яндекс Дата Фабрикой.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;математика:ff7017786ebcadfe2eae591a356a87bf&#34;&gt;Математика:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/teoriya-grafov/&#34;&gt;Теория графов&lt;/a&gt; - Для тех кто забыл и хочет обновить знания по графам.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/probability-theory-basics/&#34;&gt;Теория вероятностей для начинающих&lt;/a&gt; - Тоже курс для начинающих по терверу. Кто его проспал в универе - вам сюда.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/kombinatorika-dlya-nachinayushchikh/&#34;&gt;Комбинаторика для самых маленьких&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/sluchajnye-graphy/&#34;&gt;Теория случайных графов&lt;/a&gt; - На стыке тервера и графов.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Это всё для затравки. Так же меня порадовало, что наконец-то доделали приложения для &lt;a href=&#34;https://itunes.apple.com/app/apple-store/id736535961&#34;&gt;iphone&lt;/a&gt;/&lt;a href=&#34;http://play.google.com/store/apps/details?id=org.coursera.android&#34;&gt;android&lt;/a&gt;. IPad с собой таскать было не особо удобно.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Дмитрий Вьюков. Интервью - часть первая</title>
+      <link>http://dev.tulu.la/post/dmitry-vyukov-part1/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
+      <guid>http://dev.tulu.la/post/dmitry-vyukov-part1/</guid>
+      <description>&lt;p&gt;Собственно, сам выпуск вы можете послушать на &lt;a href=&#34;https://golangshow.com/&#34;&gt;сайте&lt;/a&gt; или в &lt;a href=&#34;https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?l=en&amp;amp;mt=2&#34;&gt;itunes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В слак чате Дима так же ответил на некоторые вопросы, интересующие сообщество (орфография и стили вопросов сохранены).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Сейчас в связи появлением в atomic SetValue началась мода на атомарность. Когда в Го это действительно оправдано? Просто это регулярная тема для споров, в том числе и тут т.к. изначально язык предлагает каналы и мьютексы для синхронизации. Но Го атомик достаточно высокоуровневый и с ходу сложно об него порезаться. Или таки просто?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Каналы скорее всего станут несколько быстрее в будущем, но все равно далеки от атомарного инкременты счетчика. Не стоит надеяться, что канал+отдельная горутина будет так же быстро, как и счетчик. Когда использовать атомарные типы - сложный вопрос. Ну во-первых, прежде чем применять какие-либо деструктивные оптимизации надо получить проблему производительности. Если проблемы производительности в данном месте нет, то очевидно атомики применять не надо. Дальше вопрос - насколько существующие оптимизированные примитивы синхронизации делают то, что вам нужно. Например, если вы можете просто заменить мьютекс или канал+горутина на sync.Once или atomic.Value, то это делает выбор проще, чем если вам нужно писать с нуля сложный lock-free алгоритм на атомиках. Дальше вопрос - сколько вы и ваша команда готовы вынести дополнительной сложности в проекте. Дальше - насколько атомики получаются быстрее. Дальше все это взвесить и решить - стоит оно того или нет.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Будет ли максимальный stop the world для GC в будущем снижаться ниже 10 ms?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;По поводу сборщика мусора - я последнее время отошел от дел, сейчас другие люди его делают и не знаю, что именно они собираются делать.  За них отвечать я не могу. Но вообще можно сделать сборщик вообще без пауз, и вроде все соглашались, что это хорошая идея. Стоит заметить, что 10 ms - цифра достаточно с потолка, и никто в данный момент не пытается придерживаться этой границы. Сборщик просто тормозит программу на некоторое время. Обычно так получается, что это время маленькое и меньше 10 мс. Так же стоит заметить, что если программа аллоцирует память как угарелая, то у сборщика не будет выбора как остановить её. Даже если он полностью конкаррент.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Дим, в этом свете тогда вопрос, есть ли возможность жёстко задавать размер хипа, чтобы влезать в мобильные приложения и в ограничения на контейнеры. Так как GOGC выглядит совсем soft. Планируется ли?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Нету. Пока ты не зафайлишь баг с описание того, как сильно это мешает тебе разрабатывать реальные мобильные приложения, - нет.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ещё у меня такой вопрос. Я видел обсуждения про асинхронную работу с файловой системой на разных ОС. Вообще ведутся какие-то работы в этом направлении?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Насколько я знаю, никакие работы не ведутся. Есть открытый баг на эту тему.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Я понимаю что каналы никогда не будут близки к атомикам т. к. концептуально разное. Но вопрос - насколько ещё можно ускорить каналы и самое главное насколько разработчики компилятора Го в этом заинтересованы интересен. До 1.5 был основная мысль &amp;ldquo;все оптимизации после переноса на Го&amp;rdquo;. Перенесли - как теперь вектор развития утверждается? (прим. имеется ввиду переписывание рантайма c C на Go)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Насколько я понимаю, команда Го не сильно заинтересованы в каналах, по-крайней мере они сами вроде ничего не делают. Мало реальных приложений, где много времени тратиться в каналах. На гугловых кластерах первая функция связанная с каналами - chansend занимает 0.03%&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Дмитрий, у нас есть слухи про то, что Intel делает дебагер на базе gdb, ты не в курсе?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Про Intel я не могу распространяться. поживем-увидим =)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;В каких оптимизациях заинтересована команда? Что бы примерно знать вектор развития.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В целом в каждый момент времени они занимаются тем, что больше всего замедляет реальные Го программы. Сейчас там есть несколько людей, которые занимаются сборщиком мусора, есть человек, который занимается эскейп анализом, есть несколько людей, которые занимаются генерацией кода.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>С чего начать новичку в Go</title>
+      <link>http://dev.tulu.la/post/go-newbies/</link>
+      <pubDate>Wed, 21 Oct 2015 00:00:00 +0000</pubDate>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
+      <guid>http://dev.tulu.la/post/go-newbies/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Прежде всего, нужно ознакомиться с основами, в этом помогут следующие ресурсы:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tour.golang.org/welcome/1&#34;&gt;Тур с заданиями по Go&lt;/a&gt; - это должен пройти каждый; (EN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang.org/doc/code.html&#34;&gt;Как писать код&lt;/a&gt;; (EN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang.org/doc/effective_go.html&#34;&gt;Как писать эффективный код&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang.org/doc/faq&#34;&gt;FAQ&lt;/a&gt;; (EN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang.org/ref/spec&#34;&gt;99% ответов о языке есть в спецификации&lt;/a&gt; - если вам не ясно как работает тот или иной элемент языка, то все ответы здесь; (EN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Примеры того, как можно решать те или иные задачи&lt;/a&gt; - можно полистать и иметь ввиду. (EN)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Дальше можно уже выбирать из списка ниже и смотреть/читать в процессе.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Скринкасты&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLBOo6DBmP5V9CAXxxl6EZxZpMmT_4ZOca&#34;&gt;Погружение в google Go&lt;/a&gt; - азы; (RU)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC2ZML5bXoJrvAlhsqMVUvXg/videos&#34;&gt;Пишем веб приложение на Go&lt;/a&gt; - более продвинутое. (RU)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Хакатоны и челенджи&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang-challenge.com/&#34;&gt;Go Challenge. Learn Go by solving problems and getting feedback from Go experts!&lt;/a&gt; - &lt;strong&gt;Обязательно&lt;/strong&gt; поучаствуйте в одном из челенджей, даже если вы уже и не новичок. Это позволит вам познакомиться с чем-то новым и получить отзывы от профессионалов. Например в последнем из челенджев, нужно было написать мобильное приложение для андроида. (EN)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Видео&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cN_DpYBzKso&#34;&gt;Rob Pike - &amp;lsquo;Concurrency Is Not Parallelism&amp;rsquo;&lt;/a&gt; - нужно смотреть всем кто хочет работать с Go (EN)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://4gophers.ru/video&#34;&gt;Набор русскоязычных и англоязычных видео&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Статьи на русском&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Про go написано достаточно много статей, ко многим есть переводы на русский&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/219459/&#34;&gt;Язык Go для начинающих&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/hub/go/&#34;&gt;Хаб Go на Хабре&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://4gophers.ru/articles&#34;&gt;Переводы статей на 4gophers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Книжки:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440&#34;&gt;The Go Programming Language&lt;/a&gt; - книжка от Кернигана, очень качественная и приятная. Вот &lt;a href=&#34;http://www.gopl.io/ch1.pdf&#34;&gt;первая глава&lt;/a&gt; для ознакомления;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/dp/0321774639/?tag=stackoverfl08-20&#34;&gt;Programming in Go Summerfield&lt;/a&gt; - есть русский &lt;a href=&#34;http://www.ozon.ru/context/detail/id/19954705/&#34;&gt;перевод&lt;/a&gt;, но качество так себе.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ресурсы:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://4gophers.com/slack&#34;&gt;Slack чат русскоязычного gopher сообщества&lt;/a&gt; - в чате сидит уже больше 500 человек, часто обсуждаются интересные темы. В канале #school можно задавать абсолютно любые вопросы. В канале #job куча вакансий;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/golang-ru&#34;&gt;Русскоязычная google группа&lt;/a&gt; - можно задать любой вопрос и получить ответ;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bit.ly/go-slack-signup&#34;&gt;Международный Slack чат&lt;/a&gt; - много людей =) общайтесь, если много свободного времени;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/golang-nuts&#34;&gt;Англоязычная google группа&lt;/a&gt; - огромное количество вопросов на английском;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangshow.com&#34;&gt;Русскоязычный подкаст о Go&lt;/a&gt; - в подкасте часто бывают гости из таких компаний, как docker, dropbox, cloudflare, coreos, google. Так же &lt;a href=&#34;http://golangshow.com/episode/2015/09-03-016/&#34;&gt;был&lt;/a&gt; знаменитый Дмитрий Вьюков и рассказывал все секреты про рантайм Go.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gocode.io/&#34;&gt;Игра, где надо писать на go и проходить миссии&lt;/a&gt; - &lt;a href=&#34;http://habrahabr.ru/post/250281/&#34;&gt;Описание на русском&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/avelino/awesome-go&#34;&gt;Библиотеки на go на любой вкус&lt;/a&gt; - В любом другом случае - ищем на гитхабе. Почти всё что надо уже написано.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki&#34;&gt;Огромное количество ссылок про всё!&lt;/a&gt; - осторожнее с этим ресурсом, можно потратить много времени, увлёкшись ненароком. (EN)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Редакторы&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/go-lang-plugin-org/go-lang-idea-plugin&#34;&gt;Плагин для IntelijIdea&lt;/a&gt; - по моему мнению, самый удобный инструмент, если вы конечно не адепт других редакторов;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fatih/vim-go&#34;&gt;Плагин для Vim&lt;/a&gt; - достаточно удобный, многие используют именно его. Если конечно vim вам мил;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dominikh/go-mode.el&#34;&gt;Плагин для Emacs&lt;/a&gt; - для тех у кого пальцы гнутся;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/DisposaBoy/GoSublime&#34;&gt;Плагин для Sublime&lt;/a&gt; - заброшен, но пользоваться можно. Я не советую;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joefitzgerald/go-plus&#34;&gt;Плагин для Atom&lt;/a&gt; - для тех кто понимает, зачем это нужно.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Митапы&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Без живого общения никак. Встречи проводятся несколько раз в год.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Golang-Moscow/&#34;&gt;Московский митап&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/uagolang/&#34;&gt;Киевский митап&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Golang-Peter/&#34;&gt;Санкт-Петербуржский&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gophers.by/&#34;&gt;Минский&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Так же проводились встречи и в других городах. Например в&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang-party.timepad.ru/event/240938/&#34;&gt;Новосибирске&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Пишите в комментариях, что ещё может быть полезно для новичков.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Участие в подкасте devzen.ru</title>
+      <link>http://dev.tulu.la/post/devzen/</link>
+      <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
+      <guid>http://dev.tulu.la/post/devzen/</guid>
+      <description>&lt;p&gt;Я очень люблю подкаст devzen.ru, постоянно слушаю его во время пробежек. Сам подкаст, это что-то вроде технических выпусков radio-t, но все ведущие готовятся и говорят интересные вещи. Поэтому я напросился к ребятам на один из выпусков.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Вот шоунотсы с выпуска:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Темы выпуска: рассказ гостя про свою жизнь, как родился, вырос, как дошел до такой жизни, про работу в Яндексе в команде кокаина, как они протащили Go в Яндекс, про работу над своим стартапом в Южной Америке в Чили, про конференцию BlackHat 2015 и свой проект по безопасности, что сейчас происходит в Dropbox; как Света съездила на конференции по BigData и ScalaUA, вакансии по Erlang, а также ответы на вопросы слушателей.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;К сожалению, мне не удалось рассказать всё что я хотел. Где-то я упустил мысль, где-то проскочил. Хотелось добавить много технических деталей, описать различные системы, но времени уже не хватало. В любом случае, получилось очень здорово =) надеюсь вам понравится.&lt;/p&gt;
+
+&lt;p&gt;Возможно, когда у меня будет уже больше знаний о Dropbox, я напрошусь ещё раз и расскажу уже конкретно про различные системы и опыт работы с ними. Ну и в этом блоге буду стараться всё описывать более подробно.&lt;/p&gt;
+
+&lt;p&gt;Сам эпизод вы можете послушать у ребят на &lt;a href=&#34;http://devzen.ru/episode-0063/&#34;&gt;сайте&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Всякие права</title>
+      <link>http://dev.tulu.la/license/</link>
+      <pubDate>Sat, 25 Jul 2015 10:41:46 -0400</pubDate>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
+      <guid>http://dev.tulu.la/license/</guid>
+      <description>&lt;p&gt;Вы можете перепечатывать статьи с указанием авторства и ссылки на оригинал. Если вы сомневаетесь в чём-то, то пишите мне на электронный адрес: m0sth8@gmail.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Обо мне</title>
+      <link>http://dev.tulu.la/about/</link>
+      <pubDate>Sat, 25 Jul 2015 10:41:46 -0400</pubDate>
+      <author>m0sth8@gmail.com (Слава Бахмутов M0sTH8)</author>
+      <guid>http://dev.tulu.la/about/</guid>
+      <description>&lt;p&gt;Привет. Меня зовут Слава. В данный момент я проживаю в городе Дублин, прекрасной страны Ирландия.
+Я проработал более двух лет в Яндексе, где мы делали различные сервисы на платформе Cocaine. Мы первыми в компании начали использовать Go и публично говорить об этом =).
+Сейчас я работаю в компании Dropbox.&lt;/p&gt;
+
+&lt;p&gt;Я выступал на некоторых мероприятиях от Яндекса, рассказывая про Go. Часть из докладов можно найти на сайте &lt;a href=&#34;https://events.yandex.ru/lib/people/618007/&#34;&gt;событий Яндекса&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Так же я один из ведущих первого российского &lt;a href=&#34;http://golangshow.com&#34;&gt;подкаста о Go&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Если вы хотите связаться со мной, вы можете написать мне на электронный адрес: m0sth8@gmail.com.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
